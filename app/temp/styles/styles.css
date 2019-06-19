@@ -1,0 +1,16 @@
+body {
+    color: #2f5572;
+    background-color: #fff;
+    color: black;
+    -webkit-columns: 2;
+            columns: 2;
+}
+
+.box a {
+        display: block;
+        padding: 10px;
+    }
+
+.box li {
+        display: none;
+    }
