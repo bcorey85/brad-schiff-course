@@ -1,0 +1,23 @@
+{
+  "name": "brad-schiff-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcorey85/brad-schiff-course.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bcorey85/brad-schiff-course/issues"
+  },
+  "homepage": "https://github.com/bcorey85/brad-schiff-course#readme",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "normalize.css": "^8.0.1"
+  }
+}
