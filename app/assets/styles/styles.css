@@ -1,19 +1,10 @@
-$mainBlue: #2f5572;
+@import "normalize.css";
+@import "base/_global";
+@import "base/_mixins";
+@import "base/_variables";
+@import "modules/_btn";
+@import "modules/_headline";
+@import "modules/_large-hero";
+@import "modules/_page-section";
+@import "modules/_wrapper";
 
-body {
-    color: $mainBlue;
-    background-color: #fff;
-    color: black;
-    columns: 2;
-}
-
-.box {
-    a {
-        display: block;
-        padding: 10px;
-    }
-
-    li {
-        display: none;
-    }
-}
