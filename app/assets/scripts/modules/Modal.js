@@ -1,13 +1,15 @@
 class Modal {
     constructor() {
-        this.openModalButton = document.querySelector('.open-modal')
+        this.openModalButton = document.querySelectorAll('.open-modal')
         this.modal = document.querySelector('.modal')
         this.closeModalButton = document.querySelector('.modal__close')
         this.events()
     }
 
     events() {
-        this.openModalButton.addEventListener('click', this.openModal.bind(this))
+        for(let i = 0; i < this.openModalButton.length; i++) {
+            this.openModalButton[i].addEventListener('click', this.openModal.bind(this))
+        }        
         this.closeModalButton.addEventListener('click', this.closeModal.bind(this))
         document.addEventListener('keyup', this.keyPressHandler.bind(this))
     }
