@@ -39,7 +39,7 @@ class StickyHeader {
                         document.querySelector(matchingHeaderLink).classList.add('is-current-link')
                     }                     
                 },
-                offset: 40%
+                offset: '40%'
             })
 
             new Waypoint({
@@ -53,7 +53,7 @@ class StickyHeader {
                         document.querySelector(matchingHeaderLink).classList.add('is-current-link')
                     }
                 },
-                offset: -10%
+                offset: '-20%'
             })
         }
     }
